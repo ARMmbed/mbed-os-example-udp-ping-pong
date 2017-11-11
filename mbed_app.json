@@ -1,0 +1,36 @@
+{
+    "config": {
+
+        "network-interface":{
+            "help": "options are ETHERNET, WIFI_ESP8266, WIFI_ODIN, MESH_LOWPAN_ND, MESH_THREAD",
+            "value": "WIFI_ODIN"
+        },
+        "esp8266-tx": {
+            "help": "Pin used as TX (connects to ESP8266 RX)",
+            "value": "D1"
+        },
+        "esp8266-rx": {
+            "help": "Pin used as RX (connects to ESP8266 TX)",
+            "value": "D0"
+        },
+        "esp8266-debug": {
+            "value": true
+        },
+        "wifi-ssid": {
+            "value": "\"AndroidAPLS\""
+        },
+        "wifi-password": {
+            "value": "\"Leasar22\""
+        },
+        "mesh_radio_type": {
+            "help": "options are ATMEL, MCR20",
+            "value": "ATMEL"
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate": 115200,
+            "platform.stdio-convert-newlines": true
+        }
+    }
+}

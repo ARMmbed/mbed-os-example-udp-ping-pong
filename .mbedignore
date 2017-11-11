@@ -1,0 +1,17 @@
+docs/
+easy-connect/atmel-rf-driver/*
+easy-connect/mcr20a-rf-driver/*
+easy-connect/stm-spirit1-rf-driver/*
+example-nodejs/
+example-python/
+webapp/
+mbed-cloud-client/mbed-client-pal/Source/Port/Reference-Impl/mbedOS/Update/pal_plat_update.cpp
+mbed-cloud-client/provisioning-sources-private/lib-device-identity/source/identity_dev_security.c
+platform/linux/setup.cpp
+__x86_x64_Linux_Native/*
+pal-platform/*
+source/platform/linux/*
+source/platform/freertos/*
+__x86_x64_NativeLinux_mbedtls/*
+__K64F_FreeRTOS_mbedtls/*
+pal-platform/*

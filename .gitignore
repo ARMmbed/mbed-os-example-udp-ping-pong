@@ -1,0 +1,12 @@
+.build
+.mbed
+projectfiles
+*.py*
+BUILD/
+profiles/
+img/
+mbed_settings.*
+mbed-os/
+easy-connect/
+.vscode/
+
